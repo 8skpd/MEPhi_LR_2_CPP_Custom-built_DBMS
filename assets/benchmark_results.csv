@@ -1,0 +1,17 @@
+mode,table,column,method,rows,build_ms,search_ms,found
+build,users,age,BTREE,10000,18.6308,-1,10000
+build,users,age,HASH,10000,12.4324,-1,10000
+search,users,,idx_age_tree,10000,-1,0.0022107,1
+search,users,,idx_age_hash,10000,-1,0.0005125,1
+search,users,,LINEAR,10000,-1,1.87822,1
+search,users,,idx_age_tree,10000,-1,0.500937,2001
+search,users,,idx_age_hash,10000,-1,-1,0
+search,users,,LINEAR,10000,-1,1.85649,2001
+build,users,age,BTREE,10000,16.5279,-1,10000
+build,users,age,HASH,10000,10.8923,-1,10000
+search,users,,idx_age_tree,10000,-1,0.0079224,1
+search,users,,idx_age_hash,10000,-1,0.0007698,1
+search,users,,LINEAR,10000,-1,1.68789,1
+search,users,,idx_age_tree,10000,-1,0.471487,2001
+search,users,,idx_age_hash,10000,-1,-1,0
+search,users,,LINEAR,10000,-1,1.79493,2001
